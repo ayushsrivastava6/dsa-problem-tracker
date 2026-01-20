@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA Problem Tracker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>DSA Problem Tracker</h1>
+    </header>
+    <main>
+        <form id="problemForm">
+            <div>
+            <label for="problemName">Problem Name</label>
+            <input type="text" id="problemName" placeholder="Problem name" required>
+            </div>
+            <div>
+            <label for="topic">Topic</label>
+            <select id="topic" required>
+                <option value="">Select Topic</option>
+                <option value="Array">Array</option>
+                <option value="String">String</option>
+                <option value="Stack">Stack</option>
+                <option value="Queue">Queue</option>
+                <option value="LinkedList">Linked List</option>
+                <option value="Tree">Tree</option>
+                <option value="Hashing">Hashing</option>
+                <option value="PriorityQueue">Priority Queue</option>
+                <option value="Trie">Trie</option>
+                <option value="Graph">Graph</option>
+                <option value="DynamicProgramming">Dynamic Programming</option>
+            </select>
+            </div>
+            <div>
+            <label for="difficulty">Difficulty</label>
+            <select id="difficulty" required>
+                <option value="">Select Difficulty</option>
+                <option value="Easy">Easy</option>
+                <option value="Medium">Medium</option>
+                <option value="Hard">Hard</option>
+            </select>
+            </div>
+            <div>
+            <button type="submit">Add Problem</button>
+            </div>
+        </form>
+        <div id="problemList">
+            <p>Problem List : </p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
