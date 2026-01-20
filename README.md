@@ -21,7 +21,13 @@ A simple and clean web-based application to track Data Structures and Algorithms
 3. Start adding and tracking problems
 
 ## Screenshots
-(Add screenshots of the application here)
+
+### Main Interface
+![Main Interface](screenshot-1.png)
+
+### Problem List
+![Problem List](screenshot-2.png)
+
 
 ## Learning Outcomes
 - DOM manipulation using JavaScript
